@@ -1,0 +1,465 @@
+@import 'https://fonts.googleapis.com/css?family=Droid+Sans|Quicksand|Raleway|Goudy+Bookletter+1911|Abril+Fatface|Yanone+Kaffeesatz|Hammersmith+One|Lato|PT+Sans+Narrow|Open+Sans+Condensed|Old+Standard+TT|Merriweather|Montserrat|Roboto|Titillium+Web|Karla|Oswald|Glegoo|Courgette|Abel|Sniglet|PT+Sans|PT+Serif|PT+Mono';
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    position: relative;
+}
+
+body {
+    background-image: url(images/hairflip.jpg);
+    
+    background-color:darksalmon;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100%;
+    -webkit-animation-delay: 0.1s;
+    -webkit-animation-name: fontfix;
+    background-blend-mode:overlay;
+}
+
+
+/* scrollbar */
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #ff1a1a;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
+
+h1 {
+     font-family: "Pt Sans Narrow", sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 170%;
+    display: inline-block;
+    width: 100%;
+    color: black;
+    left: 0;
+    font-weight: 500;
+    /* background-color:darkseagreen ;*/
+    text-decoration-line: underline;
+    margin-top: 2%;
+    padding: 3%;
+    text-transform: capitalize;
+}
+
+.container-fluid {
+    text-align: center;
+    margin: auto;
+    padding: 1%;
+}
+
+.boxed {
+    text-align: center;
+    color: white;
+    float: center;
+    margin-top: 8%;
+    background: white;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+}
+
+h2 {
+    color: black;
+    font-family: Prata, sans-serif;
+    text-align: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 1.5em;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 34%;
+    
+}
+
+#second {
+   
+    margin-top: 0%;
+    width: 34%;
+}
+
+h2 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .10em solid black; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */ /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 6s steps(40, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 32% } /* width of h1 */
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+    
+  32% { border-color: black; }
+}    
+
+#second {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .10em solid black; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */ /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 6s steps(40, end),
+    blink-caret .5s step-end infinite;
+}
+
+#firstline {
+    color: black;
+    font-family: Roboto, sans-serif;
+    text-align: left;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 1.3em;
+    
+}
+
+#secondline {
+    color: black;
+    font-family: Abel, sans-serif;
+    text-align: left;
+    margin-left: 6%;
+     margin-right: 3%;
+    margin-bottom: 5%;
+    margin-top: -2%;
+    font-size: 1.4em;
+}
+
+#skills {
+    color: black;
+    font-family: Abel, sans-serif;
+    text-align: left;
+    margin-left: 6%;
+    margin-right: 3%;
+    margin-bottom: 5%;
+    font-size: 1.4em;
+    width: 40%;
+    display: block;
+    float: left;
+}
+
+#skills li {
+    margin-bottom: 3%;
+}
+/*  
+img.galleryy {
+    margin-left: 5%;
+    margin-top: 4%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    float: left;
+    border-radius: 50%;
+    border: 4px solid black;
+    
+   
+}
+img.galleryy:hover {
+    background-color: crimson;
+    filter:opacity(0.7);
+    
+}
+*/
+
+div.gallery {}
+
+div.gallery img:hover {
+    filter: opacity(0.7);
+    /*border: 1px solid #777;*/
+}
+
+div.gallery img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 50%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding: 1%;
+    float: left;
+    height: auto;
+}
+
+div.desc {
+    padding: 2%;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+    font-size: 115%;
+    line-height: 2.0;
+}
+
+div.desc2 {
+    padding: 1%;
+    font-family: "Pt Sans Narrow", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: black;
+    font-size: 1.1em;
+    margin-bottom: 2%;
+}
+
+div.desc2 a {
+    color: #EC504F;
+    text-decoration-line: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    margin: 2%;
+    float: left;
+    margin-left: 5%;
+    margin-right: 2%;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+
+/*mobile phones/tablets*/
+
+@media only screen and (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .boxed {
+        margin-top: 20%;
+    }
+
+    ul {
+        width: 100%;
+        margin-top: 11%;
+    }
+    li {
+        width: 33%;
+        float: left;
+    }
+    li:last-child {}
+    li a {
+        font-family: Abel, sans-serif;
+        display: block;
+        width: 80%;
+        background: white;
+        padding: 4% 10%;
+        font-size: 1.4em;
+        text-decoration: none;
+        margin-left: auto;
+        margin-right: auto;
+        color: black;
+        text-transform: capitalize;
+    }
+    p {
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
+    /* hamburger icon */
+    #menu {
+        cursor: pointer;
+        width: 100%;
+        display: block;
+        margin-top: -1%;
+        background: white;
+        font-size: 2.35em;
+        text-align: right;
+        padding-right: 12%;
+        height: auto;
+        position: fixed;
+        z-index: 2;
+    }
+    /* hamburger icon menu */
+    nav ul {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        width: 80%;
+        right: 0;
+        z-index: 1;
+    }
+    li a {
+        display: inline-block;
+        color: black;
+        padding: 4.1vh 4vw 20px;
+        font-family: Abel, sans-serif;
+        text-transform: capitalize;
+        font-size: 110%;
+        float: right;
+        text-align: center;
+        text-decoration: none;
+    }
+    li a:hover {
+        background-color: #F4D03F;
+        text-decoration: none;
+    }
+    nav.js {
+        display: none;
+    }
+    ul {
+        width: 100%;
+        list-style: none;
+    }
+    li {
+        width: 100%;
+        border-right: none;
+    }
+}
+
+
+/* desktop version */
+
+@media screen and (min-width: 768px) {
+    #menu {
+        display: none;
+    }
+    /* menu of hamburger icon */
+    nav {
+        width: 100%;
+        height: 11vh;
+        top: 0;
+        position: absolute;
+        right: 0;
+        left: 0;
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        right: 0;
+        left: 0;
+        line-height: 4vh;
+        /* 
+    background-color: #FFCBA4 ;
+    display: inline;
+    position: fixed;
+    float: left;
+    
+    overflow: auto; */
+    }
+    nav li {
+        display: inline-block;
+        padding: 4.1vh 2vw 20px;
+    }
+    nav li a {
+        display: inline-block;
+        color: black;
+        font-family: Abel, sans-serif;
+        text-transform: capitalize;
+        font-size: 105%;
+        letter-spacing: 1px;
+        float: middle;
+        text-align: center;
+        text-decoration: none;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    nav li:hover {
+        text-decoration-line: underline;
+    }
+    nav li a:visited {
+        text-decoration-line: overline;
+  
+    color: black;
+    }
+    
+    nav li a.active {
+    text-decoration-line: overline;
+  
+    color: black;
+}
+
+    li a:hover:not(.active) {
+  
+    text-decoration-line: overline;
+    color: black;
+}
+    div.gallery img {
+        width: 100%;
+        max-width: 100%;
+        border-radius: 50%;
+        padding: 1%;
+        float: left;
+        height: auto;
+    }
+}
+
+
+#contact {
+    font-size: 1.3em;
+    text-align: right;
+    margin-right: 15%;
+}
+
+
+footer {
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 20% -8px 0px -8px;
+    padding: 2%;
+    text-align: center;
+    font-family: Abel, sans-serif;
+    color: white;
+    background-color: #b30000;
+    font-size: 16px;
+}
