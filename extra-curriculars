@@ -5,7 +5,7 @@
 
     <head>
 
-        <title>Skills - Catherine Angelini</title>
+        <title>Extra-Curriculars - Catherine Angelini</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="main.css" rel="stylesheet" />
@@ -26,9 +26,9 @@
 
                 <li><a href="home.html">home</a></li>
                 <li><a href="education.html">Education</a></li>
-                <li  class="selected"><a href="skills.html">Skills</a></li>
+                <li><a href="skills.html">Skills</a></li>
                 <li><a href="honors.html">Honors/Accomplishments</a></li>
-                <li><a href="about.html">Extra-Curriculars</a></li>
+                <li class="selected"><a href="about.html">Extra-Curriculars</a></li>
 
             </ul>
 
@@ -50,31 +50,27 @@
 
 <div class="boxed">
 
-<h1>Skills</h1>
+<h1>Extra-Curriculars</h1>
 
 <ul id="skills">
-    <li>HTML, HTML5, CSS, Java, React Native, and Web development</li>
-    <li>Leadership/Management skills</li>
-    <li>Fluent in English, Spanish and French</li>
-    <li>Problem-solving and critical-thinking skills</li>
-    <li>Fast learner</li>
-    <li>Prezi presentation software</li>
-    <li>Netbeans IDE, PyCharm, Brackets, Sublime Text, Unity</li>
-    
+    <li>Web designer/Assistant to web developer</li>
+    <li>Augmented Reality Developer using Microsoft Hololens - NUILabs</li>
+    <li>Shellhacks App Programmer in React Native </li>
+    <li>Pianist, Worship Ministry</li>
+    <li>Member, Women in Computer Science (WICS)</li>
+    <li>Member, Upsilon Pi Epsilon (UPE)</li>
     
     
 </ul>
-
-<ul id="skills">
-    <li>Experienced in collaborative work</li>
-    <li>Innovative</li>
-    <li>Time management/Strong work ethic</li>
-    <li>Adobe Certified Associate in Photoshop</li>
-    <li>Microsoft Word, Excel, and PowerPoint</li>
-    <li>Google Docs, Slides, and Sheets</li>
-    <li>Human Subjects Research (HSR) CITI certified</li>
+<div class="responsive">
+    <div class="gallery">
+    <a href="health2.html">
+      <img src="images/pancakes.jpg" width="600" height="400"/>
+    </a>
+    <div class="desc">Congress of Future Sci-Tech Leaders</div>
     
-</ul>
+  </div>
+</div>
 
 </div>
 
@@ -85,6 +81,7 @@
             <!--- Actual content ends -->
 
 <footer>
+
 <p id = "contact">Contact Me:</p>
 <p id = "contact">Email: c.angelini10@gmail.com</p>
 <p id="contact">Github: cange017</p>
