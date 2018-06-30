@@ -284,20 +284,20 @@ div.desc2 a {
     
     h2 {
             font-size: 1.3em;
-            width: 90%;
+            width: 100%;
             margin-bottom: 70%;
         }
         /* The typing effect */
 @keyframes typing {
   from { width: 0 }
-  to { width: 90% } /* width of h1 */
+  to { width: 100% } /* width of h1 */
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent; }
     
-  90% { border-color: black; }
+  100% { border-color: black; }
 }   
     .boxed {
         margin-top: 20%;
