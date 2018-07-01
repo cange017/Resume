@@ -481,6 +481,13 @@ div.desc2 a {
     margin-right: 15%;
 }
 
+a {
+    font-size: 1.3em;
+    text-align: right;
+    color: white;
+    text-decoration-line: none;
+    
+}
 
 footer {
     
