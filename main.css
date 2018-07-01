@@ -230,25 +230,34 @@ div.gallery img:hover {
     /*border: 1px solid #777;*/
 }
 
-div.gallery img {
+#honorspics {
     width: 100%;
-    max-width: 100%;
-    border-radius: 50%;
-    margin-right: 2%;
-    margin-bottom: 2%;
-    padding: 1%;
-    float: left;
-    height: auto;
+    float: right;
+    display: inline-block;
+    height: 320px;
+    overflow: hidden;
 }
 
 div.desc {
-    padding: 2%;
-    font-family: "Quicksand", sans-serif;
-    font-weight: 600;
+    position: absolute;
     text-align: center;
+    
+    font-family: Karla, sans-serif;
+    text-align: left;
+    font-size: 1.3em;
+    bottom: 0%;
+    right: 0%;
+    /* background: rgba(255, 255, 255, 0.5); */
+    background: white;
+    border-bottom: 1px solid  black;
+    border-right: 1px solid  black;
+    border-left: 1px solid  black;
     color: black;
-    font-size: 115%;
-    line-height: 2.0;
+}
+
+.responsive {
+    position: relative;
+    width: 50%;
 }
 
 div.desc2 {
@@ -341,6 +350,9 @@ div.desc2 a {
         margin-left: 10%;
     }
     
+    #honorspics {
+    height: auto;
+}
     li a {
         display: inline-block;
         color: white;
