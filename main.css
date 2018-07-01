@@ -84,12 +84,30 @@ h1 {
     color: white;
     float: center;
     margin-top: 8%;
-    background: white;
     width: 70%;
+    background: white;
     margin-left: auto;
     margin-right: auto;
     overflow: auto;
 }
+
+/*
+.boxed1 {
+    background: darkgray;
+}
+
+.boxed2 {
+    background: darksalmon;
+}
+
+.boxed3 {
+    
+}
+
+.boxed4 {
+    
+}
+*/
 
 h2 {
     color: black;
@@ -476,29 +494,27 @@ div.desc2 a {
 
 
 #contact {
-    font-size: 1.3em;
-    text-align: right;
     margin-right: 15%;
 }
 
 a {
-    font-size: 1.3em;
     text-align: right;
     color: white;
     text-decoration-line: none;
+    margin-right: 15%;
     
 }
 
 footer {
     
+    font-size: 1.3em;
+    text-align: right;
     position: absolute;
     right: 0;
     left: 0;
     margin: 20% -8px 0px -8px;
     padding: 2%;
-    text-align: center;
     font-family: Abel, sans-serif;
     color: white;
     background-color: #b30000;
-    font-size: 16px;
 }
