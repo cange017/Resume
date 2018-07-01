@@ -320,12 +320,12 @@ div.desc2 a {
     }
     
     #header {
-    color: black;
-    font-family: Prata, sans-serif;
-    text-align: left;
-    font-size: 1.0em;
-    text-decoration-line: none;
-    display: block;
+        color: black;
+        font-family: Prata, sans-serif;
+        text-align: left;
+        font-size: 1.0em;
+        text-decoration-line: none;
+        display: block;
     }
     
     h2 {
@@ -367,6 +367,15 @@ div.desc2 a {
     #skills {
         width: auto;
         margin-left: 10%;
+        font-size: 1.1em;
+    }
+    
+    #firstline {
+        font-size: 1.2em;
+    }
+    
+    #secondline {
+        font-size: 1.1em;
     }
     
     #honorspics {
