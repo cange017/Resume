@@ -85,6 +85,7 @@ h1 {
 .container-fluid {
     text-align: center;
     margin: auto;
+    padding: 1%;
 }
 
 .boxed {
@@ -316,6 +317,11 @@ div.desc2 a {
     * {
         margin: 0;
         padding: 0;
+    }
+    
+    .container-fluid {
+
+        padding: 0%;
     }
     
     #header {
