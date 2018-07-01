@@ -19,6 +19,7 @@ body {
     -o-background-size: cover;
     background-size: cover;
     min-height: 100%;
+    height: auto;
     -webkit-animation-delay: 0.1s;
     -webkit-animation-name: fontfix;
     background-blend-mode:overlay;
