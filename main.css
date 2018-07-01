@@ -19,7 +19,6 @@ body {
     -o-background-size: cover;
     background-size: cover;
     min-height: 100%;
-    height: auto;
     height: 100vh;
     -webkit-animation-delay: 0.1s;
     -webkit-animation-name: fontfix;
