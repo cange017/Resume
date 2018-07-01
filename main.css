@@ -57,6 +57,14 @@ body {
     background: #b30000;
 }
 
+#header {
+    color: black;
+    font-family: Prata, sans-serif;
+    text-align: left;
+    font-size: 1.0em;
+    text-decoration-line: none;
+    display: none;
+}
 h1 {
      font-family: "Pt Sans Narrow", sans-serif;
     text-align: center;
@@ -309,6 +317,15 @@ div.desc2 a {
     * {
         margin: 0;
         padding: 0;
+    }
+    
+    #header {
+    color: black;
+    font-family: Prata, sans-serif;
+    text-align: left;
+    font-size: 1.0em;
+    text-decoration-line: none;
+    display: block;
     }
     
     h2 {
