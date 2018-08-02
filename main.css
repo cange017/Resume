@@ -7,7 +7,9 @@
      
 }
 
-
+html {
+    overflow-x: hidden;
+}
 body {
     background-image: url(images/codingpicture.jpg);
     
@@ -81,7 +83,7 @@ h1 {
     width: 100%;
     color: black;
     left: 0;
-    font-weight: 500;
+    font-weight: 600;
     /* background-color:darkseagreen ;*/
     text-decoration-line: underline;
     margin-top: 2%;
@@ -94,7 +96,7 @@ h1 {
 .container-fluid {
     text-align: center;
     margin: auto;
-    padding: 1%;
+    padding: 0%;
 }
 
 .boxed {
@@ -106,6 +108,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     overflow: auto;
+    overflow-x: hidden; /*avoid horizontal scrollbar */
 }
 
 #icons {
@@ -282,13 +285,12 @@ div.gallery img:hover {
     width: 100%;
     float: right;
     display: inline-block;
-    height: 320px;
+    height: 20rem;
     overflow: hidden;
 }
 
 div.desc {
     position: absolute;
-    text-align: center;
     padding-left: 1%;
     font-family: Titillium Web, sans-serif;
     text-align: left;
@@ -296,11 +298,12 @@ div.desc {
     bottom: 0%;
     right: 0%;
     /* background: rgba(255, 255, 255, 0.5); */
-    background: white;
+    background: rgba(255,255,255,0.8);
     border-bottom: 1px solid  black;
     border-right: 1px solid  black;
     border-left: 1px solid  black;
     color: black;
+    width: 100%;
 }
 
 .responsive {
@@ -369,10 +372,16 @@ div.desc2 a {
         font-size: 1.0em;
         text-decoration-line: none;
         display: block;
+        font-weight: 300;
     }
     
     #textbox p {
         width: 60%;
+    }
+    
+    h1 {
+        font-weight: 600;
+        
     }
     
     h2 {
@@ -393,7 +402,7 @@ div.desc2 a {
   100% { border-color: black; }
 }   
     .boxed {
-        margin-top: 20%;
+        margin-top: 5%;
         width: 100%;
     }
     
@@ -408,6 +417,7 @@ div.desc2 a {
         font-size: 100%; 
         list-style-type: disc;
     }
+    
     li:last-child {}
 
     #skills {
@@ -473,18 +483,23 @@ div.desc2 a {
         position: fixed;
         top: 3%;
         width: 100%;
-        
+        list-style: none;
         z-index: 1;
     }
     
     nav.js {
         display: none;
     }
-    ul {
+    #skills ul {
         width: 100%;
         list-style: none;
     }
-    li {
+    #skills li {
+        width: 100%;
+        border-right: none;
+    }
+    
+    nav li {
         width: 100%;
         border-right: none;
     }
