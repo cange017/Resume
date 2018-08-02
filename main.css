@@ -68,6 +68,7 @@ body {
     display: none;
     background-color: transparent;
     width: 100%;
+    font-weight: 300;
 }
 
 span {
